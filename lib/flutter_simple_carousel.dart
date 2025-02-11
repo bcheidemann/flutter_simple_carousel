@@ -2,8 +2,8 @@ import 'dart:math';
 
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
-import 'package:simple_carousel/helpers/build_context.dart';
-import 'package:simple_carousel/helpers/size.dart';
+import 'package:flutter_simple_carousel/helpers/build_context.dart';
+import 'package:flutter_simple_carousel/helpers/size.dart';
 
 class CarouselPage {
   final Size Function(BoxConstraints constraints) layout;

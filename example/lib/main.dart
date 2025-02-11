@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:simple_carousel/simple_carousel.dart';
+import 'package:flutter_simple_carousel/flutter_simple_carousel.dart';
 
 void main() {
   runApp(const MyApp());
