@@ -1,0 +1,18 @@
+name: simple_carousel
+description: "A simple carousel widget for Flutter."
+version: 0.0.1
+homepage: https://github.com/bcheidemann/flutter_simple_carousel
+
+environment:
+  sdk: ^3.6.1
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  collection: ^1.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
