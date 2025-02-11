@@ -37,6 +37,10 @@ ConstrainedBox(
 );
 ```
 
+## Screen Recording
+
+https://github.com/user-attachments/assets/18f5ca03-d890-4ca2-b22d-a354066a276b
+
 ## Additional information
 
 Contributions are welcome!
