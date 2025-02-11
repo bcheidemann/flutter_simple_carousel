@@ -5,10 +5,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_simple_carousel/helpers/build_context.dart';
 import 'package:flutter_simple_carousel/helpers/size.dart';
 
+/// A page for use in the [Carousel] widget.
 class CarouselPage {
+  /// Return the desired size of the page, given the layout constraints.
   final Size Function(BoxConstraints constraints) layout;
+  /// The child widget to render in the carousel page.
   final Widget child;
 
+  /// Creates a [CarouselPage].
   CarouselPage({required this.layout, required this.child});
 
   /// Creates a [CarouselPage] which has an exact size.
@@ -40,12 +44,19 @@ class _SizedPage {
   _SizedPage({required this.size, required this.child});
 }
 
+/// A carousel widget.
 class Carousel extends StatelessWidget {
+  /// The axis along which the carousel scrolls.
   final Axis direction;
+  /// The padding applied to the carousel. This does not impact the spacing
+  /// between pages in the carousel.
   final EdgeInsets padding;
+  /// The spacing between pages in the carousel.
   final double spacing;
+  /// The pages in the carousel.
   final List<CarouselPage> pages;
 
+  /// Creates a [Carousel].
   const Carousel({
     super.key,
     this.direction = Axis.horizontal,
