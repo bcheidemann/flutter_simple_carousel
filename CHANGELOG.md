@@ -1,5 +1,9 @@
 ## 0.0.4
 
+* chore: reduce version constraint on collection
+
+## 0.0.4
+
 * docs: add docs for public API
 
 ## 0.0.3
