@@ -4,7 +4,7 @@ version: 0.0.2
 homepage: https://github.com/bcheidemann/flutter_simple_carousel
 
 environment:
-  sdk: ^3.6.1
+  sdk: ^3.0.0
   flutter: ">=3.0.0"
 
 dependencies:
