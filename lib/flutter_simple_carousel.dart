@@ -9,6 +9,7 @@ import 'package:flutter_simple_carousel/helpers/size.dart';
 class CarouselPage {
   /// Return the desired size of the page, given the layout constraints.
   final Size Function(BoxConstraints constraints) layout;
+
   /// The child widget to render in the carousel page.
   final Widget child;
 
@@ -48,11 +49,14 @@ class _SizedPage {
 class Carousel extends StatelessWidget {
   /// The axis along which the carousel scrolls.
   final Axis direction;
+
   /// The padding applied to the carousel. This does not impact the spacing
   /// between pages in the carousel.
   final EdgeInsets padding;
+
   /// The spacing between pages in the carousel.
   final double spacing;
+
   /// The pages in the carousel.
   final List<CarouselPage> pages;
 

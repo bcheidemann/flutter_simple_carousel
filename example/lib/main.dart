@@ -194,8 +194,7 @@ class Page extends StatelessWidget {
                   : Icons.arrow_downward,
               size: 40,
             ),
-            if (label != null)
-              Text(label!),
+            if (label != null) Text(label!),
           ],
         ),
       ),
