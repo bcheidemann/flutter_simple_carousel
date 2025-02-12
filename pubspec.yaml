@@ -1,6 +1,6 @@
 name: flutter_simple_carousel
 description: "A simple carousel widget for Flutter. Supports horizontal and vertical scrolling, automatic text direction handling, and more."
-version: 0.0.5
+version: 0.0.6
 homepage: https://github.com/bcheidemann/flutter_simple_carousel
 
 environment:

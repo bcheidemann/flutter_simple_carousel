@@ -1,4 +1,8 @@
-## 0.0.4
+## 0.0.6
+
+* chore: format files
+
+## 0.0.5
 
 * chore: reduce version constraint on collection
 
